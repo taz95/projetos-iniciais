@@ -19,7 +19,7 @@ public class CpfTeste {
     @Test
     public void testeCpfValido() {
         Cpf cpf = new Cpf();
-        String cpfValido = "128.423.776-13";
+        String cpfValido = "128.423.777-11";
         assertTrue(cpf.validaCpf(cpfValido));
     }
 
