@@ -7,7 +7,7 @@ public class Cpf {
         if ((cpf == null) || (cpf.length() != 14)) {
             return false;
         }
-        //128.423.776-13
+        //128.423.777-11
        //Validação do valor final determinado na string cpftresprimeirosdigitos
         String cpftresprimeirosdigitos = cpf.substring(0, 4);
         if (!cpftresprimeirosdigitos.endsWith(".")) {
